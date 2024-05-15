@@ -1,3 +1,20 @@
+#skiplink a 
+{
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+#skiplink a:focus 
+{
+  position:static;
+  width:auto;
+  height:auto;
+}
+
 .promo
 {
 	margin-bottom:0px!important;
